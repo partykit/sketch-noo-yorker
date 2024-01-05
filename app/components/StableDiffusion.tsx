@@ -9,7 +9,7 @@ export default function StableDiffusion({
   prompt: string;
 }) {
   const image = suspend(async () => {
-    const newYorkerPrompt = `A "caption contest" New Yorker-style cartoon to go with the caption: "${prompt}". Black and white (no shading), pen and ink, very simple and spare cartoon style.`;
+    const newYorkerPrompt = `A New Yorker cartoon to go with the caption: "${prompt}"`;
     const response = await PartySocket.fetch(
       { host: partykitHost, party: "comics", room: "foo" },
       {

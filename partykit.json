@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.partykit.io/schema.json",
-  "name": "partymix-example",
+  "name": "noo-yorker",
   // remix compiles our actual entry point (party/main.ts) to build/index.js
   "main": "build/index.js",
   "compatibilityDate": "2023-12-22",
